@@ -3,4 +3,36 @@ body {
   font-weight: 500;
 }
 
-@Import boxes;/*# sourceMappingURL=style.css.map */
+#boxes {
+  padding: 50px 0;
+}
+#boxes .mainbox .box {
+  width: 200px;
+  height: 200px;
+  background-color: #5183a7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#boxes .mainbox .minibox {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: #345880;
+  font-weight: 700;
+  font-size: 20px;
+  transition: 2.5s;
+}
+#boxes .mainbox .minibox:hover {
+  width: 150px;
+  height: 150px;
+  transition: 2.5s;
+}
+@media (max-width: 700px) {
+  #boxes .mainbox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=style.css.map */
