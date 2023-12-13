@@ -110,4 +110,21 @@ body {
     display: flex;
     flex-flow: column nowrap;
   }
+}
+
+#blue {
+  padding: 50px 0;
+}
+#blue .minibox {
+  width: 250px;
+  height: 150px;
+  margin: 10px 0;
+  font-size: 25px;
+  color: white;
+  background-color: #558bbd;
+}
+#blue .gln {
+  position: absolute;
+  left: 350px;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
