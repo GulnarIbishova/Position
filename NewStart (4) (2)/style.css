@@ -127,4 +127,21 @@ body {
   position: absolute;
   left: 350px;
   margin: 0;
+}
+
+#green {
+  padding: 50px 0;
+}
+#green .minibox {
+  height: 150px;
+  width: 250px;
+  font-size: 25px;
+  margin: 10px 0;
+  color: white;
+  background-color: #82ca67;
+}
+#green .gln {
+  position: absolute;
+  left: 350px;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
