@@ -1,0 +1,25 @@
+#circle
+    padding: 50px 0
+    .box
+        .minibox
+            width: 200px
+            height: 200px
+            font-size: 25px
+            border-radius: 100px
+            color: #ffff
+            background-color: #a57143
+            transition: 2s
+            &:hover
+                border-radius: 40px
+                transition: 2s
+
+        @media  ( max-width: 800px )
+            .minibox
+                width: 50px
+                height: 50px
+                border-radius: 30px
+                background-color: #dfe284
+    @media ( max-width: 700px )
+        .box
+            display: flex
+            flex-flow: column nowrap
